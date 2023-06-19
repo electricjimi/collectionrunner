@@ -26,8 +26,8 @@ Is the class representing a generic request that CollectionRunner can run: </br>
 all requests should extend this basic request implementing its abstract methods.
 Two methods worth mentioning:
 
-1. executePreRequestScript: executes before sending the request
-2. executePostRequestScript: executes after receiving a response
+1. preExecutionScript: executes before sending the request
+2. postExecutionScript: executes after receiving a response
 
 This two methods have access to the surrounding context to set/get variables as needed.
 
