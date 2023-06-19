@@ -19,7 +19,7 @@ It performs the following steps:
 5. Execute post-request scripts
 
 Method chain(CollectionRequest request) is used to chain requests one after the other. </br>
-Method run(Long iterations) is used to run the collection <iterations> times.
+Method run(Long iterations) is used to run the collection n times.
 
 ### CollectionRequest
 
