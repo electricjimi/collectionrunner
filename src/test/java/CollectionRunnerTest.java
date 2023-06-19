@@ -12,7 +12,7 @@ class CollectionRunnerTest {
     @Autowired
     CollectionRunner cr;
     @Test
-    void testCRForConservazione() throws Exception {
+    void testCR() throws Exception {
 
         cr.getContext().put("X-CSRF-TOKEN","aaa-bbb-ccc-ddd");
         cr.getContext().put("Cookie","JSESSIONID=eeeeee");
